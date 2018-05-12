@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Encoder">
+      <UniqueIdentifier>{e81cf9b1-89a6-4df2-bdaf-56eecd1e0a08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Encoder\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Encoder\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Decoder">
+      <UniqueIdentifier>{ad57f4a3-9282-4a98-b049-25ea2a571ea6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Decoder\Source Files">
+      <UniqueIdentifier>{1d18aa6d-2aa9-4217-8f5b-a241f41f8f40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Decoder\Header Files">
+      <UniqueIdentifier>{fa1b350c-f4cc-4521-9c3b-cf3860ea5700}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{2f4f6e3f-987a-409b-ae52-0252c253f84c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Header Files">
+      <UniqueIdentifier>{c0e12c64-c4af-475f-ac6e-4cf98bef2ca0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WebPUnitTest">
+      <UniqueIdentifier>{9c46f74a-1af8-4e5e-b4a6-f82674eaabf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WebPUnitTest\Source Files">
+      <UniqueIdentifier>{557e52ae-8df6-4411-93a2-b36b74c2b196}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WebPUnitTest\Header Files">
+      <UniqueIdentifier>{5fbc03af-0fdd-4388-a1c4-f57d98645744}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Src\WebPEncoder.cpp">
+      <Filter>Encoder\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\WebPDecoder.cpp">
+      <Filter>Decoder\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\image_io\image_dec.c">
+      <Filter>WebPUnitTest\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\image_io\image_enc.c">
+      <Filter>WebPUnitTest\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\image_io\imageio_util.c">
+      <Filter>WebPUnitTest\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\image_io\jpegdec.c">
+      <Filter>WebPUnitTest\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\image_io\metadata.c">
+      <Filter>WebPUnitTest\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\image_io\pngdec.c">
+      <Filter>WebPUnitTest\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\image_io\pnmdec.c">
+      <Filter>WebPUnitTest\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\image_io\tiffdec.c">
+      <Filter>WebPUnitTest\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\image_io\webpdec.c">
+      <Filter>WebPUnitTest\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\image_io\wicdec.c">
+      <Filter>WebPUnitTest\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Include\WebPencoder.h">
+      <Filter>Encoder\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\WebPDecoder.h">
+      <Filter>Decoder\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\WebPPixelFormats.h">
+      <Filter>Common\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\libwebp\image_io\image_dec.h">
+      <Filter>WebPUnitTest\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\libwebp\image_io\image_enc.h">
+      <Filter>WebPUnitTest\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\libwebp\image_io\imageio_util.h">
+      <Filter>WebPUnitTest\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\libwebp\image_io\jpegdec.h">
+      <Filter>WebPUnitTest\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\libwebp\image_io\metadata.h">
+      <Filter>WebPUnitTest\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\libwebp\image_io\pngdec.h">
+      <Filter>WebPUnitTest\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\libwebp\image_io\pnmdec.h">
+      <Filter>WebPUnitTest\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\libwebp\image_io\tiffdec.h">
+      <Filter>WebPUnitTest\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\libwebp\image_io\webpdec.h">
+      <Filter>WebPUnitTest\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\libwebp\image_io\wicdec.h">
+      <Filter>WebPUnitTest\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
